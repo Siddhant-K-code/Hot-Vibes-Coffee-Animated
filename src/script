@@ -1,0 +1,6 @@
+
+setTimeout(() => {
+	document.querySelector('.heading-first').style.top = '2px';
+	document.querySelector('.heading-first').getBoundingClientRect();
+	document.querySelector('.heading-first').style.top = '';
+}, 100);
